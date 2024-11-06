@@ -22,7 +22,7 @@ class Farm:
         return f"Farm({self.__geoloc}, {self.__number}, {self.__fan_power})"
 
     def __del__(self):
-        print('Об\'єкт видалено')
+        print('об\'єкт видалено')
 
 
 if __name__ == '__main__':
