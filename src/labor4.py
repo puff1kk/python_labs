@@ -24,10 +24,9 @@ class Farm:
     def __del__(self):
         print('Об\'єкт видалено')
 
-
 if __name__ == '__main__':
     a = Farm('123', 24, 5)
     b = Farm('456', 24, 5)
     c = Farm()
 
-print(a.number)
+print(a.get_number())
