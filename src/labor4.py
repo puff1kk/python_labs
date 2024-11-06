@@ -30,4 +30,4 @@ if __name__ == '__main__':
     b = Farm('456', 24, 5)
     c = Farm()
 
-print(a.number)
+print(a.get_number())
